@@ -11,7 +11,7 @@
 <body>
     <header>
     <!-- main nav -->
-        <a href="#" class="logo">Vue</a>
+        <a href="#" class="logo">Catford Mews</a>
         <!-- Hamburger icon -->
         <input class="side-menu" type="checkbox" id="side-menu"/>
         <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
@@ -27,24 +27,21 @@
     <main>
         <!-- Banner -->
         <div class="bgimage" id="bgimage">
-            <div class="img-container">
-                <img src="./images/playicon.png" alt="play button at the center of the background image" width="80" height="80" id="play-btn">
-            </div>
             <div class="text">
                 <h1>Aladdin</h1>
-                <button>Get Tickets</button>
+                <button> Buy Tickets</button>
             </div>
-              <!-- Trailer -->
-        <div class="trailer">
-            <video width="640" height="360" controls>
-                <source src="/images/aladdintrailer.mp4" type="video/mp4">
-            </video>
         </div>
-        </div>
-        <h2>This Month, we go on a magic carpet adventure!!!</h2> 
+
+        <h2>This Month, we go on a magic carpet adventure!!!</h2>
         <!-- Director and film details       -->
+        <h2>Aladdin</h2>
+        <div>
+            <span>G</span>
+            <img src="./images/clockicon.jpg" alt="small icon of a clock" height="16" width="16">
+            <span>90 minutes</span>
+        </div>
         <section>
-            <h2>Aladdin</h2>
             <dl>
                 <dt>Directors:</dt><dd>John Musker and Ron Clements</dd>
                 <dt>Pruducers:</dt><dd>John Musker and Ron Clements</dd>
@@ -53,7 +50,16 @@
                 <dt>Running Time:</dt><dd>90 minutes</dd>
                 <dt>Language:</dt><dd>English</dd>
             </dl>
+            <img src="./images/poster.jpg" alt="" width="200" height="320">
         </section>
+
+        <!-- Trailer -->
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <video width="320" height="240" poster="./images/geniebows.jpg" controls>
+                    <source src="./images/aladdintrailer.mp4" type="video/mp4">
+                </video>
+            </div>
         
         <section>
             <h3>Cast</h3>
@@ -105,7 +111,7 @@
     </main>
     <footer>
         <p> &copy;Disney Enterprises, Inc. 1992–present </p>
-        <p>Fictional film promotion. Done for educational purposes</p>
+        <p>Fictional film promotion done for educational purposes</p>
     </footer>
     <script src="movie.js"></script>
 </body>
